@@ -4,33 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>My Calculator</title>
 </head>
 <body>
-    <div class="calculator-body">
-        <div class="window">
+    <section class="calculator">
+        <input type="text" class="calculator-screen" value="0" disabled />
+        <section class="calculator-buttons">
+        
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+            <button type="button" value="/">&divide;</button>
 
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+            <button type="button" value="*">&times;</button>
 
-        </div>
-        <div class="buttons">
-            <a class="" href="#" data-key="7">7</a>
-            <a class="" href="#" data-key="8">8</a>
-            <a class="" href="#" data-key="9">9</a>
-            <a class="" href="#" data-key="/">/</a>
-            <a class="" href="#" data-key="4">4</a>
-            <a class="" href="#" data-key="5">5</a>
-            <a class="" href="#" data-key="6">6</a>
-            <a class="" href="#" data-key="*">X</a>
-            <a class="" href="#" data-key="1">1</a>
-            <a class="" href="#" data-key="2">2</a>
-            <a class="" href="#" data-key="3">3</a>
-            <a class="" href="#" data-key="+">+</a>
-            <a class="" href="#" data-key="0">0</a>
-            <a class="" href="#" data-key=".">.</a>
-            <a class="" href="#" data-key="=">=</a>
-            <a class="" href="#" data-key="-">-</a>
-        </div>
-    </div>
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+            <button type="button" value="+">&plus;</button>
+
+            <button type="button" value="0">0</button>
+            <button type="button" value=".">.</button>
+            <button type="button" value="-">&minus;</button>
+            <button type="button" class=all-clear value="AC">AC</button>
+            <button type="button" value="=">&equals;</button>
+
+        </section>
+    </section>
     
+    <script src="./js/main.js"></script>
 </body>
 </html>
